@@ -1,0 +1,14 @@
+C:\Users\Taras\project\libraryproject\libraryproject\bin\Debug\net8.0\LibraryProject.exe
+C:\Users\Taras\project\libraryproject\libraryproject\bin\Debug\net8.0\LibraryProject.deps.json
+C:\Users\Taras\project\libraryproject\libraryproject\bin\Debug\net8.0\LibraryProject.runtimeconfig.json
+C:\Users\Taras\project\libraryproject\libraryproject\bin\Debug\net8.0\LibraryProject.dll
+C:\Users\Taras\project\libraryproject\libraryproject\bin\Debug\net8.0\LibraryProject.pdb
+C:\Users\Taras\project\libraryproject\libraryproject\obj\Debug\net8.0\LibraryProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taras\project\libraryproject\libraryproject\obj\Debug\net8.0\LibraryProject.AssemblyInfoInputs.cache
+C:\Users\Taras\project\libraryproject\libraryproject\obj\Debug\net8.0\LibraryProject.AssemblyInfo.cs
+C:\Users\Taras\project\libraryproject\libraryproject\obj\Debug\net8.0\LibraryProject.csproj.CoreCompileInputs.cache
+C:\Users\Taras\project\libraryproject\libraryproject\obj\Debug\net8.0\LibraryProject.dll
+C:\Users\Taras\project\libraryproject\libraryproject\obj\Debug\net8.0\refint\LibraryProject.dll
+C:\Users\Taras\project\libraryproject\libraryproject\obj\Debug\net8.0\LibraryProject.pdb
+C:\Users\Taras\project\libraryproject\libraryproject\obj\Debug\net8.0\LibraryProject.genruntimeconfig.cache
+C:\Users\Taras\project\libraryproject\libraryproject\obj\Debug\net8.0\ref\LibraryProject.dll
