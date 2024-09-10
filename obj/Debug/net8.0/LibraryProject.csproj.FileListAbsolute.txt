@@ -12,3 +12,4 @@ C:\Users\Taras\project\libraryproject\libraryproject\obj\Debug\net8.0\refint\Lib
 C:\Users\Taras\project\libraryproject\libraryproject\obj\Debug\net8.0\LibraryProject.pdb
 C:\Users\Taras\project\libraryproject\libraryproject\obj\Debug\net8.0\LibraryProject.genruntimeconfig.cache
 C:\Users\Taras\project\libraryproject\libraryproject\obj\Debug\net8.0\ref\LibraryProject.dll
+C:\Users\Taras\project\libraryproject\libraryproject\obj\Debug\net8.0\LibraryProject.sourcelink.json

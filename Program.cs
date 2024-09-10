@@ -44,10 +44,27 @@ class Program {
 
     static void Main(string[] args){
 
-        ShowMenu();
-        int userChoise = Convert.ToInt32(Console.ReadLine());
+      Library library= new Library();
+      
+        ShowMenu(library);
+       
+ }
 
-        switch(userChoise){
+ private static void ShowMenu(Library library){
+
+         
+       
+
+        Console.WriteLine("Choose option:");
+        Console.WriteLine("1.Add book");
+        Console.WriteLine("2.Delete book");
+        Console.WriteLine("3.Find book");
+        Console.WriteLine("4.Checkout book");
+        Console.WriteLine("5.Return book");
+        Console.WriteLine("6.Show available books");
+
+        int userChoise = Convert.ToInt32(Console.ReadLine());
+         switch(userChoise){
             case 1:
              Console.WriteLine("Adding book:");
              Console.WriteLine("Name: " );
@@ -58,25 +75,19 @@ class Program {
             int year = Console.ReadLine().Trim().ToString().IndexOf("");
             
             Book newBook = new Book(nameInput, authorInput, year, false);
-
             Console.WriteLine("Your book successfully added!");
-            ShowMenu();
+            library.AddBook(newBook);
+            ShowMenu(library);
+            break;
 
+            case 6:
+            library.ShowAllBooks();
+            Console.WriteLine("0.Back");
+          int userInputAfterShowBooks = Convert.ToInt32(Console.ReadLine().Trim());
+          if(userInputAfterShowBooks == 0)
+            ShowMenu(library);
             break;
         }
-
- }
-
- private static void ShowMenu(){
-
-        Console.WriteLine("Choose option:");
-        Console.WriteLine("1.Add book");
-        Console.WriteLine("2.Delete book");
-        Console.WriteLine("3.Find book");
-        Console.WriteLine("4.Checkout book");
-        Console.WriteLine("5.Return book");
-        Console.WriteLine("6.Show available books");
-
  }
 }
 

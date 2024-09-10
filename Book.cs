@@ -16,5 +16,9 @@ public Book(string name, string author, int year, bool isCheckedOut) {
  this.year = year;
  this.isCheckedOut = isCheckedOut; 
 }
+
+override public string ToString() {
+    return name + " " + author + " " + year + " " + isCheckedOut;
+}
     
 }
