@@ -80,14 +80,25 @@ class Program {
             ShowMenu(library);
             break;
 
+            case 3:
+            Console.WriteLine("Enter the title:");
+            string userInputTargetBook = Console.ReadLine().Trim();
+            library.FindBook(userInputTargetBook);
+            Back(library);
+            break;
+
             case 6:
             library.ShowAllBooks();
-            Console.WriteLine("0.Back");
+            Back(library);
+            break;
+        }
+ }
+
+ public static void Back (Library library){
+   Console.WriteLine("0.Back");
           int userInputAfterShowBooks = Convert.ToInt32(Console.ReadLine().Trim());
           if(userInputAfterShowBooks == 0)
             ShowMenu(library);
-            break;
-        }
  }
 }
 

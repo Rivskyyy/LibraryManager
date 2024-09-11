@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Taras\\project\\LibraryProject\\LibraryProject\\LibraryProject.csproj": {}
+    "C:\\Users\\Taras\\project\\libraryproject\\libraryproject\\LibraryProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Taras\\project\\LibraryProject\\LibraryProject\\LibraryProject.csproj": {
+    "C:\\Users\\Taras\\project\\libraryproject\\libraryproject\\LibraryProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Taras\\project\\LibraryProject\\LibraryProject\\LibraryProject.csproj",
+        "projectUniqueName": "C:\\Users\\Taras\\project\\libraryproject\\libraryproject\\LibraryProject.csproj",
         "projectName": "LibraryProject",
-        "projectPath": "C:\\Users\\Taras\\project\\LibraryProject\\LibraryProject\\LibraryProject.csproj",
+        "projectPath": "C:\\Users\\Taras\\project\\libraryproject\\libraryproject\\LibraryProject.csproj",
         "packagesPath": "C:\\Users\\Taras\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Taras\\project\\LibraryProject\\LibraryProject\\obj\\",
+        "outputPath": "C:\\Users\\Taras\\project\\libraryproject\\libraryproject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Taras\\AppData\\Roaming\\NuGet\\NuGet.Config",

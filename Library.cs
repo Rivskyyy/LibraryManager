@@ -14,6 +14,18 @@ class Library{
 
     }
 
+    public void FindBook ( string title ){
+
+        Book targetBook = books.FirstOrDefault(book => book.title == title);
+        
+        if ( targetBook != null ){
+            Console.WriteLine($"Book found: {targetBook}");
+        } else {
+            Console.WriteLine("Book is not found");
+        }
+
+    }
+
     
 
     public void RemoveBook ( string title ){
