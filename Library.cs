@@ -6,12 +6,9 @@ class Library{
 
     public List<Book> books = new List<Book>();
 
-
-    
     public void AddBook ( Book book ){
-        
-        books.Add(book);
 
+        books.Add(book);
     }
 
     public void FindBook ( string title ){
@@ -19,17 +16,24 @@ class Library{
         Book targetBook = books.FirstOrDefault(book => book.title == title);
         
         if ( targetBook != null ){
-            Console.WriteLine($"Book found: {targetBook}");
+            Console.WriteLine($"Book deleted: {targetBook}");
         } else {
             Console.WriteLine("Book is not found");
         }
 
     }
 
-    
-
     public void RemoveBook ( string title ){
 
+            Book targetBook = books.FirstOrDefault (book => book.title == title);
+
+            if ( targetBook != null ){
+                books.Remove(targetBook);
+                 Console.WriteLine("Book successfully deleted");
+                 
+            } else{
+                Console.WriteLine("Book is not found");
+            }
     }
 
     public void ShowAllBooks(){
@@ -39,7 +43,5 @@ class Library{
         }
         
     }
-
-    
 
 }

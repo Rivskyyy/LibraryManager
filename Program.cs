@@ -52,9 +52,6 @@ class Program {
 
  private static void ShowMenu(Library library){
 
-         
-       
-
         Console.WriteLine("Choose option:");
         Console.WriteLine("1.Add book");
         Console.WriteLine("2.Delete book");
@@ -78,6 +75,13 @@ class Program {
             Console.WriteLine("Your book successfully added!");
             library.AddBook(newBook);
             ShowMenu(library);
+            break;
+
+            case 2:
+            Console.WriteLine("Enter the title:");
+            string userInputTargetBookToDelete = Console.ReadLine().Trim();
+            library.RemoveBook(userInputTargetBookToDelete);
+            Back(library);
             break;
 
             case 3:
