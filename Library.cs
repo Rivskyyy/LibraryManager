@@ -37,7 +37,14 @@ class Library{
 
     public void ReturnBook( string title ){
         
-        
+        Book targetBook = books.FirstOrDefault(book => book.title == title);
+
+        if ( targetBook != null ) {
+             targetBook.isCheckedOut = false;
+            Console.WriteLine("Book is successfully returned");
+        } else {
+             Console.WriteLine("Book is not found");
+        }
     }
 
     public void RemoveBook ( string title ){

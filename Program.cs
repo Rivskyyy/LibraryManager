@@ -63,6 +63,7 @@ class Program {
         int userChoise = Convert.ToInt32(Console.ReadLine());
         
          switch(userChoise){
+          
             case 1:
              Console.WriteLine("Adding book:");
              Console.WriteLine("Name: " );
@@ -99,7 +100,12 @@ class Program {
             Back(library);
             break;
 
-            
+            case 5:
+            Console.WriteLine("Enter the title");
+            string userInputTargetBookToReturn = Console.ReadLine().Trim();
+            library.ReturnBook(userInputTargetBookToReturn);
+            Back(library);
+            break;
 
             case 6:
             library.ShowAllBooks();
