@@ -18,7 +18,7 @@ public Book(string name, string author, int year, bool isCheckedOut) {
 }
 
 override public string ToString() {
-    return title + " " + author + " " + year + " " + isCheckedOut;
+    return "Title: " + title + "\nAuthor: " + author + "\nYear: " + year + "\nIsCheckOut: " + isCheckedOut;
 }
     
 }

@@ -23,6 +23,23 @@ class Library{
 
     }
 
+    public void CheckOutBook( string title ){
+
+        Book targetBook = books.FirstOrDefault(book => book.title == title );  // book == it 
+
+        if ( targetBook != null ){
+            targetBook.isCheckedOut = true;
+            Console.WriteLine("Book is successfully checkout");
+        } else{
+            Console.WriteLine("Book is not found");
+        }
+    }
+
+    public void ReturnBook( string title ){
+        
+        
+    }
+
     public void RemoveBook ( string title ){
 
             Book targetBook = books.FirstOrDefault (book => book.title == title);

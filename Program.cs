@@ -61,6 +61,7 @@ class Program {
         Console.WriteLine("6.Show available books");
 
         int userChoise = Convert.ToInt32(Console.ReadLine());
+        
          switch(userChoise){
             case 1:
              Console.WriteLine("Adding book:");
@@ -69,7 +70,7 @@ class Program {
              Console.WriteLine("Author: " );
             string authorInput = Console.ReadLine().Trim();
              Console.WriteLine("Year: " );
-            int year = Console.ReadLine().Trim().ToString().IndexOf("");
+            int year = Convert.ToInt32(Console.ReadLine().Trim());
             
             Book newBook = new Book(nameInput, authorInput, year, false);
             Console.WriteLine("Your book successfully added!");
@@ -90,6 +91,15 @@ class Program {
             library.FindBook(userInputTargetBook);
             Back(library);
             break;
+
+            case 4:
+            Console.WriteLine("Enter the title:");
+            string userInputTargetBookToCheckOut = Console.ReadLine().Trim();
+            library.CheckOutBook(userInputTargetBookToCheckOut);
+            Back(library);
+            break;
+
+            
 
             case 6:
             library.ShowAllBooks();
